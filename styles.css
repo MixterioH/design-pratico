@@ -7,7 +7,7 @@
 /* background do site, remoção da barra de scroll e reset de estilos das listas e dos links*/
 
 body {
-    background-image: url(/design-pratico/images/background.png);
+    background-image: url(/images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Rubik', 'Arial';
@@ -355,6 +355,28 @@ a {
     height: 99px;
     margin: 0;
     padding: 0;
+}
+
+a.instagram {
+    display: block;
+    position: relative;
+}
+a.instagram::before {
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 85%;
+    height: 85%;
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    z-index: 1;
+    border-radius: 23px;
+    /* margin: 3px; */
+}
+a.instagram svg {
+    position: relative;
+    z-index: 2;
 }
 
 /*footer*/
