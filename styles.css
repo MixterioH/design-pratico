@@ -387,6 +387,11 @@ footer{
     height: 147px;
     background-color: #FC4D27;
     margin-top: 150px;
+    align: center;
+}
+
+footer a{
+    color: gray;
 }
 
 footer p{
