@@ -1,5 +1,7 @@
 # design-pratico
 
+Para testar o projeto por conta própria acesse: https://mixterioh.github.io/design-pratico/
+
 Projeto para treinar html e css finalizado.<br>
 Foi desenvolvido o design e front page de uma pizzaria fictícia.
 
