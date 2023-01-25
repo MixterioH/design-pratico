@@ -7,7 +7,7 @@
 /* background do site, remoção da barra de scroll e reset de estilos das listas e dos links*/
 
 body {
-    background-image: url(./images/background.png);
+    background-image: url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Rubik', 'Arial';
@@ -40,6 +40,7 @@ a {
     width: 100%;
     height: 75px;
     background: #FC4D27;
+    z-index: 3;
 }
 
 .topbar__container {
