@@ -387,11 +387,11 @@ footer{
     height: 147px;
     background-color: #FC4D27;
     margin-top: 150px;
-    align: center;
 }
 
 footer a{
-    color: gray;
+    text-decoration: none;
+    color: rgb(77, 77, 77);
 }
 
 footer p{
@@ -403,7 +403,7 @@ footer p{
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
-    text-align: left;
+    text-align: center;
 
     color: #FFFFFF;
 }
