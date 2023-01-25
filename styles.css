@@ -8,7 +8,6 @@
 
 body {
     background-image: url(./images/background.png);
-    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Rubik', 'Arial';
@@ -391,6 +390,11 @@ footer{
     background-color: #FC4D27;
     margin-top: 150px;
 
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(77, 77, 77);
 }
 
 footer a{
